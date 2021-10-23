@@ -1,0 +1,30 @@
+{
+  "name": "movie-app-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-css": "npx tailwindcss -i src/assets/tailwind.css -o public/styles/tailwind.css -w"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "postcss": "^8.3.6",
+    "register-service-worker": "^1.7.1",
+    "tailwindcss": "^2.2.7",
+    "vue": "^3.0.1",
+    "vue-router": "^4.0.0-0",
+    "vue3-click-away": "^1.2.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  }
+}

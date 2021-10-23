@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="/public/favicon.ico">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="styles/tailwind.css">
+</head>
+
+<body class=" bg-mywhite text-myblack dark:bg-myblack dark:text-mywhite">
+    <noscript>
+        <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+                Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script>
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if ('theme' in localStorage) {
+            if (localStorage.theme === 'dark') {
+                document.documentElement.classList.add('dark')
+            } else {
+                document.documentElement.classList.remove('dark')
+            }
+        } else {
+            localStorage.setItem('theme', 'dark')
+        }
+    </script>
+</body>
+
+</html>
