@@ -18,12 +18,4 @@ VUE_APP_API_KEY=...
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
 # ENJOY
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
