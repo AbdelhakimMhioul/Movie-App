@@ -1,8 +1,7 @@
-# movie-app-vue
+# Movie App
 
 ## Project Illustration (Light/Dark Modes)
-
-https://user-images.githubusercontent.com/77196025/129360234-9a840b3a-d620-4967-9d42-ca577826ad80.mp4
+To see Video Presentation Check out my Public Repos: https://github.com/AbdelhakimMhioul/My-Public-Repos#boom-movie-app
 
 ## Project setup
 ```
